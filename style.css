@@ -1,0 +1,97 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color:#24252A;
+    font-family:"Raleway", sans-serif;
+}
+
+li, a, button {
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+}
+
+.nav__links {
+list-style: none;
+}
+
+.nav__links li {
+display:inline-block;
+padding:0px 20px;
+}
+
+.nav__links li a {
+    transition: 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color:#0088a9
+}
+
+button {
+    padding:9px 20px;
+    background-color: rgba(0, 136, 169, 1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+h3 {
+    color:#edf0f1;
+}
+
+h3:hover {
+    cursor:pointer;
+}
+
+#updates {
+    padding-left:700px;
+}
+
+
+#updates {
+    align-items: center;
+}
+
+.up_h2 {
+    font-size:40px;
+    color:#edf0f1;
+    padding-left:170px;
+    padding-top:100px;
+    padding-bottom:10px;
+}
+
+.info li {
+    font-size:20px;
+    padding:10px 0px;
+}
+
+#goal {
+    text-align: center;
+}
+
+.go_h2 {
+    font-size:40px;
+    color:#edf0f1;
+    padding-left:10px;
+    padding-top:100px;
+    padding-bottom:10px;
+}
+
+#goal p {
+color:#edf0f1;
+font-size:20px;
+}
